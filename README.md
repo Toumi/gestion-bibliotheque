@@ -2,6 +2,8 @@
 
 Application python pour gérer une biblio
 
+Prérequis : Python 3.9 ou supérieur.
+
 #Auteurs
 
 Toumi BouchentouF
