@@ -7,3 +7,7 @@ def exporter_csv(biblio, chemin):
         writer.writerow(["isbn", "titre", "auteur", "disponible"])
         for livre in biblio.livres:
             writer.writerow([livre.isbn, livre.titre, livre.auteur, livre.disponible])
+            
+def exporter_json(biblio, chemin):
+    # TODO : à terminer
+    raise NotImplementedError
