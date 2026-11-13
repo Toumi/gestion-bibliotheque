@@ -20,3 +20,6 @@ Toumi BouchentouF
 ## Contribuer
  
 Consultez [CONTRIBUTING.md](CONTRIBUTING.md) avant d'ouvrir une pull request.
+
+- Sauvegarde et chargement du 
+catalogue au format  JSON
