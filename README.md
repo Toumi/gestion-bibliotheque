@@ -21,5 +21,7 @@ Toumi BouchentouF
  
 Consultez [CONTRIBUTING.md](CONTRIBUTING.md) avant d'ouvrir une pull request.
 
+- Suppression d'un livre par ISBN
 - Sauvegarde et chargement du 
 catalogue au format  JSON
+
