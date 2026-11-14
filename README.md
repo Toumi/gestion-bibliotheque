@@ -6,6 +6,8 @@ Prérequis : Python 3.9 ou supérieur.
 
 #Auteurs
 
+ingénierie logiciel
+
 Toumi BouchentouF
 ## Exécution
  
