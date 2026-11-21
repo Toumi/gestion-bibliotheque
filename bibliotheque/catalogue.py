@@ -42,4 +42,10 @@ class Bibliotheque:
         return True
 
 
-
+def supprimer(self, isbn):
+        """Supprime le livre d'ISBN donné. Retourne True si un livre a été supprimé."""
+        livre = self.rechercher_par_isbn(isbn)
+        if livre is None:
+            return False
+        self._livres.remove(livre)
+        return True
