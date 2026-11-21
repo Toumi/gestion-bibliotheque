@@ -29,4 +29,3 @@ class Livre:
         return f"[{marque}] {self.titre} par {self.auteur} (ISBN {self.isbn})"
 
 
-
