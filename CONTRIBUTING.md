@@ -7,8 +7,14 @@ Merci de contribuer à ce projet ! Voici les règles à suivre.
 1. Choisissez ou créez une *issue* et assignez-la-vous.
 2. Créez une branche à partir de `main` : `feature/nom-court`,
    `fix/nom-court` ou `docs/nom-court`.
-3. Faites des commits atomiques, avec des messages au format
-   `type: résumé` (`feat`, `fix`, `docs`, `chore`).
+3. 3. Faites des commits atomiques, avec des messages au format `type: résumé`
+   (`feat`, `fix`, `docs`, `chore`, `test`).
+ 
+- Tous les tests doivent passer avant toute demande de revue : `pytest`.
+- Toute nouvelle fonctionnalité ou correction de bug s'accompagne d'un test.
+- La couverture ne doit pas descendre sous 80 % :
+  `pytest --cov=bibliotheque --cov-fail-under=80`.
+
 4. Poussez votre branche et ouvrez une *pull request* vers `main`.
 5. Attendez la revue d'au moins une personne. Corrigez ses remarques
    par de nouveaux commits.
